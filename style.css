@@ -1,0 +1,238 @@
+@font-face {
+    font-family: 'ffmark';
+    src: url(assets/FontFont_FF.Mark.Pro.Bold.woff);
+}
+
+
+html , body  { 
+    width: 100vw;
+    height: 100vh;
+    background-color: #666;
+
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+main {
+    width: 1535px;
+    height: 860px;
+    margin: 0 auto;
+    display: flex;
+    font-family: 'ffmark', sans-serif;
+    
+}
+
+
+/*section login*/
+
+#login {
+    width: 29.2%;
+    height: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 70px 50px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+#background { 
+    background: url('/assets/bg-client.jpg') no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    
+}
+
+#logo-riot img {
+    width: 110px;
+    height: 30px;
+}
+
+
+#fazer-login-text {
+    display: block;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    
+    
+    
+}
+
+#alertEmail {
+    position: absolute;
+    top: 285px;
+    left: 60px;
+    font-size: 0.7rem;
+    color: #be29cc;
+    display: none;
+}
+
+/*inputs*/
+.inputs { 
+    position: relative;
+    width: auto;
+    height: auto;
+    
+    
+}
+
+.labelEmail { 
+    font-size: 0.7rem;
+    font-weight: 900;
+    color: #b2b2b2;
+    letter-spacing: -0.8px;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    transition: 0.1s all;
+    pointer-events: none;
+    
+}
+
+.labelSenha {
+    font-size: 0.7rem;
+    font-weight: 800;
+    color: #b2b2b2;
+    letter-spacing: -0.8px;
+    position: absolute;
+    bottom: 35px;
+    left: 20px;
+    transition: 0.1s all;
+    pointer-events: none;
+}
+
+.inputs input{ 
+    height: 47px;
+    width: 96%;
+    outline: none;
+    margin-bottom: 20px;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 25px 10px 10px 10px;
+    transition: 0.25s all;
+    color: black;
+    font-weight: bolder;
+    font-family: 'ffmark', sans-serif;
+    font-size: 1.1rem;
+           
+}
+
+.inputs input:hover {
+    background-color: rgba(177, 177, 177, 0.3);
+}
+
+#emailLabelOn { 
+    font-size: 10px;
+    top: 5px;
+    left: 15px;
+
+
+}
+
+#senhaLabelOn {
+    font-size: 10px;
+    bottom: 50px;
+    left: 15px;
+}
+
+
+
+/*social media buttons*/
+
+
+.buttons-socialMedia { 
+    display: flex;
+    justify-content: center;
+}
+.buttons-socialMedia button { 
+    width: 93px;
+    height: 32px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin: 0px 3px;
+    cursor: pointer;
+    
+}
+#facebook-button { 
+    background: #1877f2 url(assets/facebook.svg) no-repeat center;
+    background-size: 18%;
+    transition: 0.1s all;
+}
+
+#facebook-button:hover {
+     background-color: #366aae;
+}
+
+#google-button { 
+    background: #fff url(assets/google.svg) no-repeat center; 
+    background-size: 18%;
+   
+}
+
+#apple-button {
+    background: #000 url(assets/apple.svg) no-repeat center;
+    background-size: 18%;
+}
+
+#checkbox { 
+    text-align: start;
+    font-size: 0.8rem;
+    margin-top: 15px;
+    margin-left: 5px;
+    display: flex;
+   
+}
+
+#checkbox input {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    
+    
+}
+
+#checkbox label {
+    cursor: pointer;
+    
+}
+#button-login {
+    width: 65px;
+    height: 65px;
+    background: white url(assets/seta_button_icon.svg) no-repeat center; /*#D13639*/
+    outline: none;
+    border-radius: 20px;
+    margin-top: 220px;
+    margin-bottom: 60px;
+    border: none;
+
+    
+
+}
+
+
+#recovery-options h4 a{
+    font-size: 0.7rem;
+    font-weight: 800;
+    color:#b2b2b2;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+
+}
+
+#recovery-options a:hover {
+    font-size: 0.7rem;
+    color: rgba(0, 0 , 0, 1);
+    border: 1px solid rgba(214, 190, 214, 0.3);
+}
+
